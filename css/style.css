@@ -8,7 +8,7 @@ body
     width: 100%; 
     height:80px;
     background-color:  rgb(241, 241, 241);
-
+    box-shadow: 1px 1px 1px rgb(1,157,11);
 }
 .corButao
 {
@@ -28,4 +28,24 @@ a.one
    color: inherit;
    text-decoration: none;
 }
+img.CorImgem
+{   opacity: 50%;
+    background-color: rgb(1,157,11);
+    height: 0 auto;
+    width: 0 auto;
+}
+.sobrepor
+{
+    position:absolute;
+    margin-top: -320px;
+    margin-left: 340px;
+    text-align: center;
+}
 
+.tituloSobre
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 100px;
+    
+}
