@@ -1,14 +1,36 @@
+:root
+{
+    --mainColor:rgb(211, 211, 211);
+    --corVerde:rgb(1, 157, 11);
+}
 body
-{ width: 100%;
-  height: 100%;
-
+{ 
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, white, black);
+}
+main{
+    width: 91.5%;
+    margin-left: 55px;
+    background-color: white;
+    color: black;
+} 
+.pergunta{
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 .cabecalho1
 {
     width: 100%; 
     height:80px;
-    background-color:  rgb(241, 241, 241);
-    box-shadow: 1px 1px 1px rgb(1,157,11);
+
+    margin: auto;
+    box-shadow: 1px 1px 1px rgb(1, 157, 11);
+    background-color: var(--mainColor);
 }
 .corButao
 {
@@ -19,33 +41,9 @@ body
 {  
     width: 10%;
     float: left;
-
-
 }
-
 a.one
 {
    color: inherit;
    text-decoration: none;
-}
-img.CorImgem
-{   opacity: 50%;
-    background-color: rgb(1,157,11);
-    height: 0 auto;
-    width: 0 auto;
-}
-.sobrepor
-{
-    position:absolute;
-    margin-top: -320px;
-    margin-left: 340px;
-    text-align: center;
-}
-
-.tituloSobre
-{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 100px;
-    
 }
