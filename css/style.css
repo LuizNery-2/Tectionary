@@ -7,14 +7,8 @@ body
 { 
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top, white, black);
 }
-main{
-    width: 91.5%;
-    margin-left: 55px;
-    background-color: white;
-    color: black;
-} 
+
 .pergunta{
     font-size: 40px;
 }
@@ -32,15 +26,29 @@ h2{
     box-shadow: 1px 1px 1px rgb(1, 157, 11);
     background-color: var(--mainColor);
 }
-.corButao
+div.corButao
 {
-    float: right;
+    text-align: right;
    padding: 20px;
+  
+
 }
+div.corButao button
+{
+   position: relative;
+}
+div.corButao button:hover {
+   
+    color: white;
+    background-color:var(--corVerde);
+
+}
+
 .logo
 {  
     width: 10%;
-    float: left;
+    float: right;
+    position: relative;
 }
 a.one
 {
