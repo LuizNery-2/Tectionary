@@ -19,10 +19,6 @@ h2{
 }
 .cabecalho1
 {
-    width: 100%; 
-    height:80px;
-
-    margin: auto;
     box-shadow: 1px 1px 1px rgb(1, 157, 11);
     background-color: var(--mainColor);
 }
@@ -46,8 +42,8 @@ div.corButao button:hover {
 
 .logo
 {  
-    width: 10%;
-    float: right;
+   width: 50%;
+    float: left;
     position: relative;
 }
 a.one
@@ -55,6 +51,7 @@ a.one
    color: inherit;
    text-decoration: none;
 }
+<<<<<<< HEAD
 a.corlink{
     color: var(--corVerde);
 
@@ -66,3 +63,6 @@ a.corlink:hover{
 a.corlink::after{
     color: var(--corVerde);    
 }
+=======
+
+>>>>>>> b7f5bfbb50a4d6bf926796a32c3fa4a514fd00ef
