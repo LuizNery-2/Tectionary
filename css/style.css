@@ -2,6 +2,8 @@
 {
     --mainColor:rgb(211, 211, 211);
     --corVerde:rgb(1, 157, 11);
+    --Verdeblack:  rgb(5, 54, 0);
+    --cinzaBonito: rgb(236,236, 236);
 }
 body
 { 
@@ -14,13 +16,15 @@ body
 }
 h2{
     text-align: center;
-    background-color: black;
+    background-color: var(--Verdeblack);
     color: white;
 }
 .cabecalho1
 {
     box-shadow: 1px 1px 1px rgb(1, 157, 11);
     background-color: var(--mainColor);
+    width: 100%;
+    
 }
 div.corButao
 {
@@ -51,18 +55,66 @@ a.one
    color: inherit;
    text-decoration: none;
 }
-<<<<<<< HEAD
+
 a.corlink{
-    color: var(--corVerde);
+    color: white;
 
 }
 a.corlink:hover{
-    color: rgb(21, 119, 21);
+    color: rgb(212, 212, 212);
     
 }
-a.corlink::after{
-    color: var(--corVerde);    
+a.corlink:visited{
+    color: rgb(255, 255, 255);
 }
-=======
+nav.NavSobre
+{ background-color:var(--Verdeblack);
+  box-shadow:1px 1px 1px var(--corVerde);
+   
+}
+.alinhar{
+   
+    text-align:right;
+    margin-left: auto;
+    margin-right: 3.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.corpo{
+   border-left: 1px;
+   border-left-style: solid;
+   border-left-color: rgb(199, 199, 199);
+   border-right: 1px;
+   border-right-style: solid;
+   border-right-color: rgb(199, 199, 199);
+   border-bottom: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: rgb(199, 199, 199);
+  
+} 
 
->>>>>>> b7f5bfbb50a4d6bf926796a32c3fa4a514fd00ef
+.margem{
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 3.5px;
+}
+.margem1{
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 3.5px;
+}
+main.corFundoPag{
+    background-color: rgb(236, 236, 236);
+}
+div.corFundo{
+    background-color: var(--cinzaBonito)
+}
+div.corFundo1{
+    background-color:white;
+}
+.fonteTan{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: medium;
+
+}
