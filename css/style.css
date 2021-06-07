@@ -55,3 +55,14 @@ a.one
    color: inherit;
    text-decoration: none;
 }
+a.corlink{
+    color: var(--corVerde);
+
+}
+a.corlink:hover{
+    color: rgb(21, 119, 21);
+    
+}
+a.corlink::after{
+    color: var(--corVerde);    
+}
