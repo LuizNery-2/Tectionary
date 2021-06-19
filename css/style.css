@@ -2,7 +2,12 @@
 {
     --mainColor:rgb(211, 211, 211);
     --corVerde:rgb(1, 157, 11);
+
+    --Verdeblack:  rgb(5, 54, 0);
+    --cinzaBonito: rgb(236,236, 236);
+
     --corAzul: #2694af;
+
 }
 body
 { 
@@ -15,13 +20,15 @@ body
 }
 h2{
     text-align: center;
-    background-color: black;
+    background-color: var(--Verdeblack);
     color: white;
 }
 .cabecalho1
 {
     box-shadow: 1px 1px 1px rgb(1, 157, 11);
     background-color: var(--mainColor);
+    width: 100%;
+    
 }
 div.corButao
 {
@@ -47,9 +54,99 @@ a.one
    color: inherit;
    text-decoration: none;
 }
+
+a.corlink{
+    color: white;
+
+}
+a.corlink:hover{
+    color: rgb(212, 212, 212);
+    
+}
+a.corlink:visited{
+    color: rgb(255, 255, 255);
+}
+nav.NavSobre
+{ background-color:var(--Verdeblack);
+  box-shadow:1px 1px 1px var(--corVerde);
+   
+}
+.alinhar{
+   
+    text-align:right;
+    margin-left: auto;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+img.alinhar{
+   
+    text-align:right;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.corpo{
+   border-left: 1px;
+   border-left-style: solid;
+   border-left-color: rgb(199, 199, 199);
+   border-right: 1px;
+   border-right-style: solid;
+   border-right-color: rgb(199, 199, 199);
+   border-bottom: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: rgb(199, 199, 199);
+  
+} 
+
+.margem{
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+.margem1{
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 100px;
+}
+main.corFundoPag{
+    background-color: rgb(236, 236, 236);
+}
+div.corFundo{
+    background-color: var(--cinzaBonito)
+}
+div.corFundo1{
+    background-color:white;
+}
+.fonteTan{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: medium;
+
+}
+.fundoF{
+    background-color:var(--mainColor);
+}
+div.ajuste{
+    padding: 20px;
+    text-align: right;
+}
+div.ajuste1{
+    padding: 10px;
+}
+a.cor{
+    color:var(--corVerde);
+    
+}
+div.Sombra{
+    box-shadow:1px 1px 1px var(--corVerde);
+}
+
+
 .acordeon
 {
-    max-width: 1000px;
+   
    font-family:sans-serif;
    display: flex;
    flex-wrap: wrap;
@@ -103,3 +200,4 @@ a.one
     height: 170px;
     padding: 0px;
 }
+
