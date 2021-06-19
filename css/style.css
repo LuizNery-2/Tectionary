@@ -84,7 +84,6 @@ a.one
 }
 .acordeon .contentBx.active .label::before{
     content: '-';
-    
 }
 .acordeon .contentBx.active .label
 {
