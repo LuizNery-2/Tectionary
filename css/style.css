@@ -76,7 +76,15 @@ nav.NavSobre
    
     text-align:right;
     margin-left: auto;
-    margin-right: 3.5px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+img.alinhar{
+   
+    text-align:right;
+    margin-left: auto;
+    margin-right: 100px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -97,12 +105,12 @@ nav.NavSobre
 
     margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: 3.5px;
+    margin-left: 100px;
 }
 .margem1{
     margin-top: 10px;
     margin-bottom:10px;
-    margin-left: 3.5px;
+    margin-left: 100px;
 }
 main.corFundoPag{
     background-color: rgb(236, 236, 236);
@@ -118,3 +126,21 @@ div.corFundo1{
   font-size: medium;
 
 }
+.fundoF{
+    background-color:var(--mainColor);
+}
+div.ajuste{
+    padding: 20px;
+    text-align: right;
+}
+div.ajuste1{
+    padding: 10px;
+}
+a.cor{
+    color:var(--corVerde);
+    
+}
+div.Sombra{
+    box-shadow:1px 1px 1px var(--corVerde);
+}
+
