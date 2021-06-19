@@ -2,8 +2,12 @@
 {
     --mainColor:rgb(211, 211, 211);
     --corVerde:rgb(1, 157, 11);
+
     --Verdeblack:  rgb(5, 54, 0);
     --cinzaBonito: rgb(236,236, 236);
+
+    --corAzul: #2694af;
+
 }
 body
 { 
@@ -28,25 +32,20 @@ h2{
 }
 div.corButao
 {
-    text-align: right;
+   text-align: right;
    padding: 20px;
-  
-
 }
 div.corButao button
 {
    position: relative;
 }
 div.corButao button:hover {
-   
     color: white;
     background-color:var(--corVerde);
-
 }
-
 .logo
 {  
-   width: 50%;
+    width: 50%;
     float: left;
     position: relative;
 }
@@ -76,7 +75,7 @@ nav.NavSobre
    
     text-align:right;
     margin-left: auto;
-    margin-right: 100px;
+    margin-right: 50px;
     margin-top: 100px;
     margin-bottom: 10px;
 }
@@ -84,7 +83,7 @@ img.alinhar{
    
     text-align:right;
     margin-left: auto;
-    margin-right: 100px;
+    margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -142,5 +141,63 @@ a.cor{
 }
 div.Sombra{
     box-shadow:1px 1px 1px var(--corVerde);
+}
+
+
+.acordeon
+{
+   
+   font-family:sans-serif;
+   display: flex;
+   flex-wrap: wrap;
+}
+.acordeon .contentBx
+{
+    width: 325px;
+    position: relative;
+    padding: 10px 10px;
+}
+.acordeon .contentBx .label
+{
+    background-color: var(--corVerde);
+    cursor: pointer;
+    color: #fff;
+    padding: 10px;
+}
+.acordeon .box
+{
+   background-color: cornsilk;
+   position: relative;
+}
+.acordeon .contentBx .label::before
+{
+    
+    content: '+';
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 1.5em;
+    transform: translate(-50%);
+}
+.acordeon .contentBx.active .label::before{
+    content: '-';
+}
+.acordeon .contentBx.active .label
+{
+    background-color: var(--corAzul);
+}
+.acordeon .contentBx .box
+{
+    position: relative;
+    background: rgb(236, 231, 231);
+    height: 0;
+    overflow: hidden;
+    transition: 1.0s;
+    overflow-y:auto;
+}
+.acordeon .contentBx.active .box
+{
+    height: 170px;
+    padding: 0px;
 }
 
